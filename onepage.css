@@ -1,0 +1,65 @@
+
+*
+{
+	margin: 0;
+}
+.fstdiv
+{
+	
+	background-color: black;
+	width: 100%;
+	height: 40px;
+	color: white;
+	font-size: 24px;
+	font-family:monospace;
+	text-align: center;
+}
+body{
+	margin: 0px;
+	background-image:url("image/tech.png");
+}
+.box1,.box2,.box3{
+	border: 1px solid white;
+	background-color:#CBCCD1 ;
+	width: 28%;
+	height:200px;
+	opacity:.5;
+}
+ p
+{
+
+	color: black;
+	font-size: 16px;
+	font-family:georgeia;
+	text-align: justify;
+
+}
+.flex-container
+{
+	display: flex;
+	flex-wrap:wrap;
+	margin-top: 70px;
+	justify-content: space-evenly;
+}
+h2{
+	font-size: 22px;
+	text-align: center;
+	color: darkblue;
+}
+@media only screen and (max-width:650px)
+{
+	body
+	{
+	 direction:left;
+	}
+	flex-container
+	{
+		flex-direction:row;
+
+	}
+.box1,.box2,.box3
+{
+	width: 60%;
+	margin-top: 30px;
+}
+}
